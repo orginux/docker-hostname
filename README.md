@@ -2,7 +2,7 @@
 Simple NGINX web server which the service page  contains the hostname, IP address, and path from request
 
 
-Simplified version (nginxdemos/hello)[https://hub.docker.com/r/nginxdemos/hello] with updated NGINX
+Simplified version [nginxdemos/hello](https://hub.docker.com/r/nginxdemos/hello) with updated NGINX
 
 ## Usage
 
