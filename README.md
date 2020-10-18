@@ -8,7 +8,7 @@ Simplified version [nginxdemos/hello](https://hub.docker.com/r/nginxdemos/hello)
 
 in Docker
 ```bash
-docker run --rm -d -p 8080 orginux/docker-hostname:1.0
+docker run --rm -d -p 80:80 orginux/docker-hostname:1.0
 ```
 
 in Kubernetes
