@@ -6,12 +6,21 @@ Simplified version [nginxdemos/hello](https://hub.docker.com/r/nginxdemos/hello)
 
 ## Usage
 
-in Docker
+### Docker
 ```bash
 docker run --rm -d -p 80:80 orginux/docker-hostname:1.0
 ```
 
-in Kubernetes
+```bash
+curl localhost:80
+Server address: 172.17.0.2:80
+Server name: 75b72cc9d6af
+Date: 18/Oct/2020:15:49:15 +0000
+URI: /
+Request ID: 93f29dda07ebb51e3401df77ffd6fe39
+```
+
+### Kubernetes
 
 Create Deployment
 ```bash
