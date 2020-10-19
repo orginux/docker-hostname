@@ -37,7 +37,7 @@ Add rule Ingress
 ```yaml
 spec:
   rules:
-    - host: my-cluster.name
+    - host: my.host.name
       http:
         paths:
           - path: /debug
@@ -48,7 +48,7 @@ spec:
 
 Get content
 ```
-$ curl http://my-cluster.name/debug
+$ curl http://my.host.name/debug
 
     Server address: 10.233.65.78:80
     Server name: example-856796c6dd-k6rch
